@@ -2,11 +2,12 @@
 
 #include "./counting.hpp"
 #include "./insertion.hpp"
+#include "./quick.hpp"
 
 using namespace std;
 
 void sort(int arr[], int size) {
-	counting_sort(arr, size);
+	quick_sort(arr, size);
 }
 
 void print_arr(int arr[], int size) {
