@@ -3,11 +3,12 @@
 #include "./counting.hpp"
 #include "./insertion.hpp"
 #include "./quick.hpp"
+#include "./bubble.hpp"
 
 using namespace std;
 
 void sort(int arr[], int size) {
-	quick_sort(arr, size);
+	bubble_sort(arr, size);
 }
 
 void print_arr(int arr[], int size) {
