@@ -4,6 +4,7 @@
 #include "./insertion.hpp"
 #include "./quick.hpp"
 #include "./bubble.hpp"
+#include "./shell.hpp"
 
 using namespace std;
 
@@ -92,6 +93,7 @@ int main() {
 	test("insertion", insertion_sort);
 	test("quick", quick_sort);
 	test("bubble", bubble_sort);
+	test("shell", shell_sort);
 
 	print_fail();
 }
