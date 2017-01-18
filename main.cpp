@@ -5,6 +5,7 @@
 #include "./quick.hpp"
 #include "./bubble.hpp"
 #include "./shell.hpp"
+#include "./list.hpp"
 
 using namespace std;
 
@@ -94,6 +95,7 @@ int main() {
 	test("quick", quick_sort);
 	test("bubble", bubble_sort);
 	test("shell", shell_sort);
+	test("list", list_sort);
 
 	print_fail();
 }
